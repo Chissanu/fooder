@@ -1,6 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+
+var dummyData = {
+  "name" : "hello",
+  "age" : 15
+}
+
 export default function App() {
   return (
     <View style={styles.container}>
